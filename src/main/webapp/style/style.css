@@ -1,0 +1,62 @@
+body{
+    vertical-align: middle;
+    background-color: #b1ffb0;
+}
+table{
+    margin: auto;
+}
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    /* Параметры рамки */
+}
+TH {
+    background: #b0e0e6; /* Цвет фона */
+}
+table > caption{ /* Стиль дочернего элемента */
+    font-size: 130%;
+}
+td{
+    text-align: center;
+}
+td.head{
+    font-size: 120%;
+}
+td.main{
+    font-weight:bold;
+    font-size: larger;
+}
+.miss{
+    background-color: red;
+    border: 1px solid black;
+}
+.hit{
+    background-color: green;
+    border: 1px solid black;
+}
+
+option, select, input, button{
+    background-color: black;
+    border: none;
+    color: whitesmoke;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+div.container{
+    font-weight:bold;
+    font-size: larger;
+}
+.answerTable{
+    width: 90%;
+    border: 1px solid black;
+}
+
+.answerTable tr, .answerTable td{
+    border: 1px solid black;
+}
+
+#canvas{
+    border: 2px solid black;
+}
